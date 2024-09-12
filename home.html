@@ -1,0 +1,225 @@
+<html>
+<body style="background-image: url(217650.jpg);background-size: cover ;">
+	<head><title>Neu Flights booking</title></head>
+	<style type="text/css">
+		.navbar{
+			background: black; font-family: calibri; padding-right: 15px; padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between; 
+		}
+		.logo a{
+			font-size: 40px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 30px; 
+		}
+		ul li ul.dropdown li{
+			display: block;
+		}
+		ul li ul.dropdown{
+			width: 100%;
+			background: black;
+			position: absolute;
+			z-index: 999;
+			display: none;
+		}
+		ul li a:hover{
+			background: #112C66;
+		}
+		ul li:hover ul.dropdown{
+			display: block;
+		}
+		button{
+			background-color: #c7821c; margin-left: 10px; border-radius: 10px; padding: 8px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+
+		}
+		.search{
+        font-size: 20px;
+        background-color: #edd75c;
+        border: 1px solid #9e1010;
+        border-radius: 8px; 
+        padding: 1px 15px 1px 15px;
+        display: inline-block;
+        text-align: center;  
+        align-items: center;
+        
+    }
+
+		
+</style>
+
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#"><img src="1000051173.png" width="120px"></a></div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="allflight.php">Flights</a></li>
+				<li><a href="customerlogin.html">Login</a>
+				
+					<ul class="dropdown">
+						<li><a href="adminlogin.html">Admin Login</a></li>
+						<li><a href="customerlogin.html">Customer Login</a></li>
+					</ul>
+				<
+				</li>
+				<li><a href="cantact.html">Contact Us</a></li>
+				<button><a href="notamem.html">Register</a></button>
+			</ul>
+		</div>
+	</nav>
+<table border="0">
+<tr>
+<td rowspan="5" style="width:100px;height:120">
+
+</td>
+
+<td rowspan="5" style="width:100px;height:120">
+
+</td>
+
+</tr>
+</table>
+ 
+
+<br>
+<br>
+<form name="notamem.html" action="flightdetails.php" method="post">
+<table align="center" style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; padding-top: 30px; margin-left: 400px;">
+<tr>
+<td style="font-size:20px;vertical-align: middle; text-align:center; padding: 5px; color: white;">From</td>
+<td style="padding-right:50px">
+<select name="source" style="font-size:16px;vertical-align: middle; text-align:center; padding:5px;margin-right:70px;margin-left:0; padding: 5px;" required>
+	<option value="" disabled selected>Select an option</option>
+        <option>Australia</option>
+        <option>Afghanistan</option>
+        <option>Algeria</option>
+        <option>American Samoa</option>
+        <option>Bangladesh</option>
+        <option>Brazil</option>
+        <option>Canada</option>
+        <option>France</option>
+        <option>Hong Kong</option>
+        <option>Iceland</option>
+        <option>India</option>
+        <option>Ireland</option>
+        <option>Japan</option>
+        <option>Korea, Republic of</option>
+        <option>Malaysia</option>
+        <option>Mexico</option>
+        <option>Nepal</option>
+        <option>Netherlands</option>
+        <option>New Zealand</option>
+        <option>Philippines</option>
+        <option>Romania</option>
+        <option>Russia</option>
+        <option>Saudi Arabia</option>
+        <option>Singapore</option>
+        <option>South Africa</option>
+        <option>Sri Lanka</option>
+        <option>Switzerland</option>
+        <option>Thailand</option>
+        <option>Turkey</option>      
+        <option>Uganda</option>
+        <option>Ukraine</option>
+        <option>United Kingdom</option>
+        <option>United States</option>
+        <option>Zimbabwe</option>
+</select>
+
+</td>
+<td style="font-size:20px;vertical-align: middle; text-align:center; padding: 5px; color: white; margin:10px; margin-right:30px">To</td>
+<td>
+<select name="destination" style="font-size:16px;vertical-align: middle; text-align:center; padding:5px; margin:10px; margin-right:30px" required>
+<option value="" disabled selected>Select an option</option>
+<option>Australia</option>
+        <option>Afghanistan</option>
+        <option>Algeria</option>
+        <option>American Samoa</option>
+        <option>Bangladesh</option>
+        <option>Brazil</option>
+        <option>Canada</option>
+        <option>France</option>
+        <option>Hong Kong</option>
+        <option>Iceland</option>
+        <option>India</option>
+        <option>Ireland</option>
+        <option>Japan</option>
+        <option>Korea, Republic of</option>
+        <option>Malaysia</option>
+        <option>Mexico</option>
+        <option>Nepal</option>
+        <option>Netherlands</option>
+        <option>New Zealand</option>
+        <option>Philippines</option>
+        <option>Romania</option>
+        <option>Russia</option>
+        <option>Saudi Arabia</option>
+        <option>Singapore</option>
+        <option>South Africa</option>
+        <option>Sri Lanka</option>
+        <option>Switzerland</option>
+        <option>Thailand</option>
+        <option>Turkey</option>      
+        <option>Uganda</option>
+        <option>Ukraine</option>
+        <option>United Kingdom</option>
+        <option>United States</option>
+        <option>Zimbabwe</option>
+</select>
+</td>
+<tr>
+<td style="font-size:20px;vertical-align: middle; text-align:center; padding: 5px; padding-top: 40px; color: white;">Date of journey</td>
+<td style="padding-top: 40px;"><input type="Date" name="date" style="font-size:16px;vertical-align: middle; text-align:center; margin-right:60px;margin-left:0; padding: 5px;" required></td>
+<td style="font-size:20px;vertical-align: middle; text-align:center; padding: 5px; padding-top: 40px; color: white;">Class</td>
+<td style="padding-top:40px;margin-right: 30px;">
+<select name="class" style="font-size:16px; vertical-align: middle; text-align:center; padding:5px; margin-right: 5px; margin-left:10px" required>
+	<option value="" disabled selected>Select an option</option>
+        <option>Economy</option>
+        <option>Premium economy</option>
+        <option>Business</option>
+        <option>First class</option>
+</select>
+</td>
+</tr>
+<tr>
+	<td style="font-size:20px;vertical-align: middle; text-align:center; padding: 5px; padding-top: 40px; color: white;">Trip</td>
+	<td style="padding-top: 40px;">
+		<select name="Trip" style="font-size:16px; vertical-align: middle; text-align:center; padding:5px; margin-right: 5px; margin-left:10px;" required>
+	<option value="" disabled selected>Select an option</option>
+        <option>One trip</option>
+        <option>Round trip</option>
+</select>
+</td>
+</tr>
+<tr>
+	<td style="padding-right: 220px;"></td>
+
+<td align="center" style="padding-top: 50px;" ><input type="submit" class="search" value="Search" name="nm100">
+</td>
+</tr>
+</table>
+</form> 
+
+<br>
+<br>
+<footer style="margin-top: 80px;">
+<table border="0" >
+<td colspan="6" style="background-color:#131A22;text-align:center;color:white; width:1600px; height:45px;">
+Copyright &copy HMS,version 1.1</td>
+</tr>
+</table>
+</footer>
+</body>
+</html>
